@@ -30,6 +30,7 @@ class scarpThroughWeb:
    def scrapWeb(self):
       try:
         options = webdriver.ChromeOptions()
+		#The .crx file should be placed in a suitable location in your desktop. Change the path accordingly
         options.add_extension(r'C:\Users\Chandrani\Documents\PythonSeleniumScripts\selepy1.crx')
         driver = webdriver.Chrome(chrome_options = options)
         driver.set_page_load_timeout(40)
