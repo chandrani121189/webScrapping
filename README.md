@@ -1,4 +1,4 @@
-                                  Installation Document for WebScrapping Project
+                                  Installation Document for Python Based WebScrapping Project
 
 Introduction
 This document will provide users a easy and efficient way to install and run the WebScrapping project. This document will also tell users about the modules which are required for the execution.
